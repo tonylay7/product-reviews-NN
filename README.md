@@ -6,7 +6,13 @@ It's designed to satisfy the requirements of one of my NLP courseworks.
 
 ## Table of Contents
 
-  * [🗺️ Overview](#%EF%B8%8F-overview)
+  * [🗺️ Overview](#-overview)
+  * [⚙️ Text cleaning and pre-processing](#%EF%B8%8F-text-cleaning-and-pre-processing)
+  * [👨‍🍳 Data preparation for the model](#-data-preparation-for-the-model)
+  * [📦 Model](#-model)
+  * [⏳ Training](#-training)
+  * [📊 Results and Analysis](#-results-and-analysis)
+  
 
 ## 🗺️ Overview
 
@@ -56,7 +62,7 @@ The model is trained with the following parameters (but can be adjusted):
 ## 📊 Results and Analysis
 
 <p align="center">
-  <img src="media/confusion_matrix.jpg" alt="model" width="720" />
+  <img src="media/confusion_matrix.png" alt="confusion matrix" width="720" />
 </p>
 
 Here is a confusion matrix representing the mean precision, recall, f1 score and accuracy in 5-fold CV. An average accuracy of 75% is adequate, but I believe it can be improved. The dataset used here is imbalanced - there are 598 more positive reviews than negative reviews. It is clear that the model struggles to classify negative reviews as seen from the relatively low precision, recall and f1 score values.
