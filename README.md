@@ -42,7 +42,7 @@ There are 2090 review samples. The model is analysed using 5-fold CV so roughly 
 
 A simple 4 layer model is implemented in this project.
 
-![ScreenShot](media/model_plot.jpg)
+![Model_Plot](media/model_plot.png)
 
 
   * Embedding Layer: reduces the dimensionality of the input data to improve model efficiency
@@ -59,7 +59,7 @@ The model is trained with the following parameters (but can be adjusted):
 
 ## 📊 Results and Analysis
 
-![ScreenShot](media/confusion_matrix.png)
+![Confusion_Matrix](media/confusion_matrix.jpg)
 
 Here is a confusion matrix representing the mean precision, recall, f1 score and accuracy in 5-fold CV. An average accuracy of 75% is adequate, but I believe it can be improved. The dataset used here is imbalanced - there are 598 more positive reviews than negative reviews. It is clear that the model struggles to classify negative reviews as seen from the relatively low precision, recall and f1 score values.
 
